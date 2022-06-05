@@ -2,6 +2,8 @@
 
 ApiPokémon + Angular
 
+baseUrl: 'https://pokeapi.co/api/v2'
+
 Principal
 ![app_pokemon_1](https://user-images.githubusercontent.com/92740455/172033012-5e4d1762-4ac3-4a32-a0ee-8249c9fddceb.jpg)
 
