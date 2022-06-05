@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+table {
+    min-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.mat-header-cell {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.mat-row:nth-child(even) {
+    background-color: white;
+}
+
+
+.mat-row:nth-child(odd) {
+    background-color: #000000;
+    & .mat-cell {
+        color: white;
+    }
+}
+
+.mat-cell:first-letter {
+    text-transform: uppercase;
+}
+
+.mat-row:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 5px #d16909;
+}
+
+::ng-deep.mat-paginator {
+    width: 80%;
+    margin: auto;
+}
+
+.mat-form-field {
+    font-size: 13px;
+    width: 20%;
+
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+::ng-deep.mat-form-field-label {
+    color: white !important;
+}
+::ng-deep.mat-form-field-underline {
+    background-color: white !important;
+}
+
+input {
+    color: white !important;
+}
+
+h1 {
+   left: 50%;
+    transform:translateX(-50%);
+    position: relative;
+    stroke-miterlimit:3;
+    fill:none;
+    top: 20px;
+      display: block;
+      min-height: 400px;
+      max-height: 70vh;
+      margin: 0 auto;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+  }
