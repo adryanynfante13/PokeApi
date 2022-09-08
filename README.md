@@ -18,6 +18,3 @@ Detalles Pokémon
 Npm install y luego ng serve -o para abrir en tu nevegador
 
 By Adryan Ynfante
-
-![image](https://user-images.githubusercontent.com/92740455/189230401-7fc2098f-ab55-4d66-95f3-e1c21b3ba818.png)
-
